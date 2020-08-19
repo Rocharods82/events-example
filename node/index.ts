@@ -34,6 +34,8 @@ function sendEventWithTimer() {
 
 sendEventWithTimer()
 
+
+
 export default new Service<IOClients, State, ParamsContext>({
   clients: {
     options: {
